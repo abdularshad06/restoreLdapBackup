@@ -1,4 +1,4 @@
-# restoreLdapBackup
+# RestoreLdapBackup
 Restore Ldap Backup from Backup/Storage Server
 
 # Copy data.ldif File from Backup/Storage Server to secondary ldap server.
