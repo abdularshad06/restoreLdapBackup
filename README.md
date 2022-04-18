@@ -1,2 +1,5 @@
 # restoreLdapBackup
 Restore Ldap Backup from Backup/Storage Server
+
+# Copy File from Backup/Storage Server to secondary ldap server.
+scp -r /home/backup/ldap_backup/17-04-2022/config.ldif /home/backup/ldap_backup/17-04-2022/data.ldif ldap2.manit.ac.in:/root/restore/
